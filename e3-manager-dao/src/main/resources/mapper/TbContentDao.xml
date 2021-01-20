@@ -80,7 +80,7 @@
   <sql id="Blob_Column_List" >
     content
   </sql>
-  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.lyb.e3mall.entity.TbContent" >
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.lyb.e3mall.entity.TbContentExample" >
     select
     <if test="distinct" >
       distinct

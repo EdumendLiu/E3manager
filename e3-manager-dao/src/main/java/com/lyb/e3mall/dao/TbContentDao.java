@@ -2,6 +2,7 @@ package com.lyb.e3mall.dao;
 
 
 import com.lyb.e3mall.entity.TbContent;
+import com.lyb.e3mall.entity.TbContentExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -17,7 +18,7 @@ public interface TbContentDao {
 
     int insertSelective(TbContent record);
 
-    List<TbContent> selectByExampleWithBLOBs(TbContent example);
+    List<TbContent> selectByExampleWithBLOBs(TbContentExample example);
 
     List<TbContent> selectByExample(TbContent example);
 
