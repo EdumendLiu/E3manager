@@ -20,7 +20,6 @@
         <module>e3-portal-web</module>
         <module>e3-content-service</module>
         <module>e3-content-interface</module>
-        <module>e3-content-service</module>
         <module>e3-search-service</module>
         <module>e3-search-web</module>
         <module>e3-search-interface</module>
@@ -56,7 +55,6 @@
         <activemq.version>5.11.2</activemq.version>
         <freemarker.version>2.3.23</freemarker.version>
         <quartz.version>2.2.2</quartz.version>
-        <jackson.version>2.9.5</jackson.version>
     </properties>
     <dependencyManagement>
         <dependencies>
