@@ -86,7 +86,7 @@
             <artifactId>jackson-annotations</artifactId>
         </dependency>
         <dependency>
-            <groupId>e3mall</groupId>
+            <groupId>org.example</groupId>
             <artifactId>e3-content-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
