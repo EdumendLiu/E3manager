@@ -58,7 +58,7 @@
     </properties>
     <dependencyManagement>
         <dependencies>
-            <!-- 时间操作组件 -->
+            <!-- 时间操作组件` -->
             <dependency>
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
